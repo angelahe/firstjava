@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/ReferenceCode" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -27,5 +28,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.4.2" level="project" />
+    <orderEntry type="library" name="org.mockito:junit-jupiter:2.20.0" level="project" />
   </component>
 </module>
