@@ -1,4 +1,6 @@
 # firstjava
+https://app.pluralsight.com/course-player?clipId=936c9d2a-9692-46b8-b180-bc84d2e8c126
+text: Java - a beginner's guide, 8th edition Herbert Schildt
 
 ## download latest JDK
 jdk.java.net
