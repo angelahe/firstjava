@@ -38,6 +38,9 @@ long = 64 bit = -9223372036854775808 to 9223372036854775807
 float = 32 bit
 double = 64 bits
 
+## TODO challenges
+write a MathTest class and tests for Math.max() and Math.min()
+
 ## Reference sites
 ```bash
 https://introcs.cs.princeton.edu/java/11cheatsheet/
