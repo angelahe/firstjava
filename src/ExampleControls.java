@@ -29,5 +29,32 @@ class ExampleControls {
         i = 5;
         j = 10;
 
+        // note that the 'end of line' is the ; ie statements can safely
+        // go over multiple lines
+        if(i !=0) {
+            System.out.println("i does not equal zero " +
+                            "so it's safe to divide");
+            d = j / i;
+            System.out.println("j/i is " + d);
+        }
+
+        System.out.println();
+
+        //gallons to litres conversion
+        double gallons, litres;
+        int counter;
+
+        counter = 0;
+        for(gallons = 1; gallons <= 100; gallons++) {
+            litres = gallons * 3.7854; // convert to litres
+            System.out.println(gallons + " gallons is " +
+                    litres + " litres");
+            counter++;
+            //every 10th line print a blank line
+            if (counter == 10) {
+                System.out.println();
+                counter = 0; // reset the counter
+            }
+        }
     }
 }
