@@ -27,7 +27,33 @@ const and goto are reserved but not used
 also reserved: true, false, null, var
 
 Variable names:
-[A..Z|a..z|_|$][A..Z|a..z|0..9|$|_]
+[A..Z|a..z|_|$][A..Z|a..z|0..9|$|_]*
+
+Primitive types:
+boolean - true/false, byte -128 to 127, char, double, float, int, long, short
+byte = 8 bit = -128 to 127
+short = 16 bit = -32768 to 32767
+int = 32 bit = -2147483648 to 21474843647
+long = 64 bit = -9223372036854775808 to 9223372036854775807
+float = 32 bit
+double = 64 bits
+
+## Reference sites
+```bash
+https://introcs.cs.princeton.edu/java/11cheatsheet/
+set up junit 5 
+https://www.youtube.com/watch?v=Z8V7rnvDeB4
+
+```
+https://introcs.cs.princeton.edu/java/11cheatsheet/
+
+## Common libraries
+Standard
+Math (Math.sqrt)
+
+## File I/O
+File
+
 
 ## main principles of Java
 In the most general sense, a program can be organized in one of two ways: around its code (what is happening) or around its data (what is being affected). 
